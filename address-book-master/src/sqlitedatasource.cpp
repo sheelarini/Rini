@@ -4,6 +4,7 @@
 #include <sqlite3.h>
 #include <string>
 #include <stdexcept>
+#include <cstdlib>
 #include <vector>
 #include "addressbookview.h"
 #include "contact.h"

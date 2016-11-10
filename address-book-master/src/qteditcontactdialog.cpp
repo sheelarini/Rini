@@ -51,9 +51,7 @@ void QtEditContactDialog::accept()
     contactToEdit.firstName = contactForm->firstNameField->text().toStdString();
     contactToEdit.lastName = contactForm->lastNameField->text().toStdString();
     contactToEdit.address = contactForm->addressField->toPlainText().toStdString();
-
-   // int integer_value = ui->lineEdit->text().toInt();
-    contactToEdit.phoneNumber  = contactForm->phoneNumberField->text().toStdString();
+     contactToEdit.phoneNumber  = contactForm->phoneNumberField->text().toStdString();
     contactToEdit.email = contactForm->emailField->text().toStdString();
     contactToEdit.city = contactForm->cityField->text().toStdString();
 

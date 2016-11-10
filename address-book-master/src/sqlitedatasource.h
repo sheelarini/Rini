@@ -5,6 +5,7 @@
 #include <QtSql>
 #include <QSqlDatabase>
 #include <string>
+#include <cstdlib>
 #include <vector>
 #include "addressbookmodel.h"
 #include "addressbookview.h"

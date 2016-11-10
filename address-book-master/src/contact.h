@@ -19,6 +19,7 @@ class Contact
 
         typedef std::vector<Contact> ContactRecordSet;
         typedef unsigned int ContactId;
+
         static const ContactId INVALID_ID = 0;
 
         ContactId id;
@@ -27,11 +28,12 @@ class Contact
         std::string phoneNumber;
         std::string address;
         std::string email;
-         std::string city;
+        std::string city;
 
         Contact():id(0), firstName(), lastName(), phoneNumber(), email(), city(){ }
         bool isValidToAdd() const;
         bool isEmpty() const;
+
 
 };
 
